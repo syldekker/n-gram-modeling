@@ -2,12 +2,12 @@
 
 This program uses diphone (bigram) and triphone (trigram) models to represent Mainstream American English (MAE) phonotactics.
 
-## Uses:
+## Output:
 
 1. Generate random sequences of phonemes based on training data (CMU Pronouncing Dictionary)
 2. When given test file of made-up "words" as argument, model scores each "word" based on similarity to MAE phonotactics
 
-## Description:
+## Use:
 
 The program takes either two or three command line arguments:
 1. `training_file`
@@ -20,6 +20,8 @@ The program takes either two or three command line arguments:
     - corpus for which to calculate perplexity
     
         - `X.txt` or `Y.txt`
+
+## Notes:
 
 If the program is given only two command line arguments, it prints 25 "words" consisting of random phoneme sequences based on either a diphone or triphone model.
 
