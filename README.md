@@ -15,10 +15,12 @@ The program takes either two or three command line arguments:
     
 2. `N`
     - either `2` or `3`
+    
     - sets n-gram type (bigram or trigram)
     
 3. `test_file` (optional)
     - corpus for which to calculate perplexity
+    
         - `X.txt` or `Y.txt`
 
 If the program is given only two command line arguments, it prints 25 "words" consisting of random phoneme sequences based on either a diphone or triphone model.
