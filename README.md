@@ -13,9 +13,7 @@ The program takes either two or three command line arguments:
 1. `training_file`
     - CMU phonetic dictionary
     
-2. `N`
-    - either `2` or `3`
-    
+2. `N` (either 2 or 3)    
     - sets n-gram type (bigram or trigram)
     
 3. `test_file` (optional)
