@@ -31,4 +31,4 @@ When given three arguments, the program processes the test file based on a smoot
 
 ### Known Issues:
 * triphone counts not accurate due to misapplied boundary symbols (`# #`)
-* 'N' in perplexity calculation is defined as len(phonemes), but it should be len(phonemes)-1
+* `N` in perplexity calculation is defined as `len(phonemes)`, but it should be `len(phonemes)-1`
